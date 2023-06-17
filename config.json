@@ -1,0 +1,19 @@
+{
+    "bot": {
+        "botToken": "YOUR_BOT_TOKEN",
+        "admin": "OWNER_ID"
+    },
+    "database": {
+        "serviceAccountPath": "serviceAccount.json",
+        "databaseURL": "https://example.firebaseio.com"
+    },
+    "price": {
+        "sim": 100,
+        "location": 100,
+        "balance": 100,
+        "device": 100,
+        "nid": 100,
+        "birth": 100
+    },
+    "apiKey": "YOUR_API_KEY"
+}

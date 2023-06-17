@@ -1,0 +1,27 @@
+{
+  "name": "ghost-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "chalk": "^5.2.0",
+    "colorette": "^2.0.20",
+    "express": "^4.18.2",
+    "figlet": "^1.6.0",
+    "firebase-admin": "^11.8.0",
+    "kleur": "^4.1.5",
+    "log-symbols": "^5.1.0",
+    "moment-timezone": "^0.5.43",
+    "node-fetch": "^3.2.6",
+    "telegraf": "^4.12.2"
+  },
+  "description": "A nodejs telegram bot for interacting with the ghost.toxinum.xyz API."
+}
