@@ -3,7 +3,7 @@ const axios = require("axios");
 
 module.exports = {
   config: {
-    name: "nid",
+    name: "birth",
     author: "Mohammad Alamin",
     version: "1.0",
     description: "Find birth no and dob to birth server information.",

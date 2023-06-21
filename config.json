@@ -1,11 +1,11 @@
 {
     "bot": {
-        "botToken": "YOUR_BOT_TOKEN",
-        "admin": "OWNER_ID"
+        "botToken": "BOT_TOKEN",
+        "admin": "YOUR_TELEGRAM_ID"
     },
     "database": {
-        "serviceAccountPath": "serviceAccount.json",
-        "databaseURL": "https://example.firebaseio.com"
+        "serviceAccountPath": "db.json",
+        "databaseURL": "https://example-rtdb.firebaseio.com/"
     },
     "price": {
         "sim": 100,
@@ -15,5 +15,5 @@
         "nid": 100,
         "birth": 100
     },
-    "apiKey": "YOUR_API_KEY"
+    "apiKey": "APIKEY"
 }

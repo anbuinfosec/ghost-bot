@@ -33,7 +33,7 @@ module.exports = {
         );
 
         if (response.data.status === true) {
-          const updatedBalance = await updateCoinAmount(userId, -price.location);
+          const updatedBalance = await updateCoinAmount(userId, -price.nid);
           if (updatedBalance.status) {
             const info = Object.entries(response.data)
               .filter(([key]) => key !== "status")
